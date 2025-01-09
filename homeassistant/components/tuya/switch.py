@@ -355,6 +355,31 @@ SWITCHES: dict[str, tuple[SwitchEntityDescription, ...]] = {
             translation_key="socket_6",
             device_class=SwitchDeviceClass.OUTLET,
         ),
+         SwitchEntityDescription(
+            key=DPCode.SWITCH_7,
+            translation_key="socket_7",
+            device_class=SwitchDeviceClass.OUTLET,
+        ),
+         SwitchEntityDescription(
+            key=DPCode.SWITCH_8,
+            translation_key="socket_8",
+            device_class=SwitchDeviceClass.OUTLET,
+        ),
+         SwitchEntityDescription(
+            key=DPCode.SWITCH_9,
+            translation_key="socket_9",
+            device_class=SwitchDeviceClass.OUTLET,
+        ),
+         SwitchEntityDescription(
+            key=DPCode.SWITCH_11,
+            translation_key="socket_11",
+            device_class=SwitchDeviceClass.OUTLET,
+        ),
+         SwitchEntityDescription(
+            key=DPCode.SWITCH_12,
+            translation_key="socket_12",
+            device_class=SwitchDeviceClass.OUTLET,
+        ),
         SwitchEntityDescription(
             key=DPCode.SWITCH_USB1,
             translation_key="usb_1",
